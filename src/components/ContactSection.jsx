@@ -109,13 +109,13 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4">Connect with me</h4>
               <div className="flex space-x-4 justify-center ">
-                <a href="https://www.linkedin.com/in/harsh-singh-4a263328b/" target="_blank">
+                <a className="hover:scale-120 transition-all duration-300 hover:text-blue-600" href="https://www.linkedin.com/in/harsh-singh-4a263328b/" target="_blank">
                   <Linkedin />
                 </a>
-                <a href="https://www.instagram.com/harsh0_0singh/" target="_blank">
+                <a className="hover:scale-120 transition-all duration-300 hover:text-red-600" href="https://www.instagram.com/harsh0_0singh/" target="_blank">
                   <Instagram />
                 </a>
-                <a href="https://github.com/Harsh0-0Singh" target="_blank">
+                <a className="hover:scale-120 transition-all duration-300 hover:text-primary-foreground" href="https://github.com/Harsh0-0Singh" target="_blank">
                   <Github />
                 </a>
               </div>

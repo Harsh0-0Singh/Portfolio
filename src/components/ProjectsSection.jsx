@@ -9,7 +9,7 @@ const projects = [
       "A website for finding and purchasing best real estate properties in lucknow",
     image: "/projects/base.png",
     tags: ["React", "RealEstate", "Design"],
-    demoUrl: "#",
+    demoUrl: "https://base-infra.com/",
     githubUrl: "#",
   },
   {
@@ -19,7 +19,7 @@ const projects = [
     image: "/projects/hostel",
     tags: ["Express", "Hostels", "MongoDB"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Harsh0-0Singh/Hostel-Finder",
   },
   {
     id: 3,
@@ -76,12 +76,14 @@ export const ProjectsSection = () => {
                     <a
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                       href={project.demoUrl}
+                      target="_blank"
                     >
                       <ExternalLink size={20} />
                     </a>
                     <a
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                       href={project.githubUrl}
+                      target="_blank"
                     >
                       <Github size={20} />
                     </a>
@@ -95,6 +97,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             href="https://github.com/Harsh0-0Singh"
+            target="_blank"
           >
             Check My Github <ArrowRight size={16} />{" "}
           </a>
