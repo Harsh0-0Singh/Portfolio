@@ -4,32 +4,32 @@ import React from "react";
 const projects = [
   {
     id: 1,
-    title: "Base Infra",
-    description:
-      "A website for finding and purchasing best real estate properties in lucknow",
-    image: "/projects/base.png",
-    tags: ["React", "RealEstate", "Design"],
-    demoUrl: "https://base-infra.com/",
-    githubUrl: "#",
+    title: "Foodfactory",
+    description: "A plateform to order food across the globe",
+    image: "/projects/foodfactory.png",
+    tags: ["Express", "React", "MongoDB","TypeScript","Stripe","Zustand","Mailtrap"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/Harsh0-0Singh/Food-factory",
   },
   {
     id: 2,
-    title: "Hostel Finder",
-    description: "A plateform to find and book hostels online in lucknow",
-    image: "/projects/hostel",
-    tags: ["Express", "Hostels", "MongoDB"],
+    title: "JobNest",
+    description:
+      "A job portal allowing people to find jobs and companies to find suitable candidates",
+    image: "/projects/jobnest.png",
+    tags: ["React", "Express", "Framer Motion"],
     demoUrl: "#",
-    githubUrl: "https://github.com/Harsh0-0Singh/Hostel-Finder",
+    githubUrl: "https://github.com/Harsh0-0Singh/JobNest",
   },
   {
     id: 3,
-    title: "Talenthub",
+    title: "Mojito",
     description:
-      "A job portal allowing people to find jobs and companies to find suitable candidates",
-    image: "/projects/talenthub",
-    tags: ["React", "Express", "Framer Motion"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "A Website made with beautiful gsap aniamtions",
+    image: "/projects/mojito.png",
+    tags: ["React", "gsap"],
+    demoUrl: "https://mojito-eosin.vercel.app/",
+    githubUrl: "https://github.com/Harsh0-0Singh/Mojito",
   },
 ];
 
